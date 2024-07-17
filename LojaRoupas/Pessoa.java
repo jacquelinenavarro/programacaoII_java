@@ -1,7 +1,7 @@
 // Classe abstrata para pessoas com nome
 
 public abstract class Pessoa {
-    protected String nome;
+    private String nome;
 
     public Pessoa(String nome) {
         this.nome = nome;

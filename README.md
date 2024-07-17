@@ -10,6 +10,10 @@ Considere o cenário de modelagem de classes para representar os funcionários d
 Defina as principais classes, os atributos e possíveis métodos. 
 Considere o uso dos conceitos de herança, encapsulamento e composição.
 
+- Exercício Proposto: Animal
+
+Implementar um cenário que considera as classes concretas Homem, Galinha, Cavalo e Peixe, incluindo superclasses e interfaces que as relacionam. As classes concretas devem possuir um comportamento mover(int passos) com um padrão de caractere diferente para cada animal. Implementar classe de teste.
+
 ## Material da aula de 15/07/2024
 
 - Exercício Proposto: Loja de Roupas

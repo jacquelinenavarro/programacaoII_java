@@ -3,6 +3,7 @@
 public class Cliente extends Pessoa implements Desconto {
     private double cashback;
 
+    
     public Cliente(String nome) {
         super(nome);
         this.cashback = 0.0;

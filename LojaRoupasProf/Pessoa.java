@@ -7,6 +7,7 @@ public abstract class Pessoa {
     private String cpf;
     private Date dataNascimento;
 
+
     public Endereco getEnderecoResidencial() {
         return enderecoResidencial;
     }

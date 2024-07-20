@@ -1,4 +1,5 @@
 // Classe Funcionario implementando a interface Desconto
+
 public class Funcionario extends Pessoa implements Desconto {
     private double desconto;
 

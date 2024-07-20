@@ -10,8 +10,3 @@ public class Pessoa {
         return nome;
     }
 }
-
-// Interface Desconto
-public interface Desconto {
-    double aplicarDesconto(double valor);
-}

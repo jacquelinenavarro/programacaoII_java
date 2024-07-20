@@ -1,21 +1,37 @@
 import java.util.Date;
+import java.util.List;
 
-public class Funcionario extends Pessoas{
-    public Funcionario(String string) {
-        //TODO Auto-generated constructor stub
-    }
+
+public class Funcionario extends Pessoa {
     private Date dataAdmissao;
     private double salario;
-    public double aplicarDesconto(double valorVenda) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'aplicarDesconto'");
+    private List<Pedido> pedidosVendidos;
+
+    public List<Pedido> getPedidosVendidos() {
+        return pedidosVendidos;
     }
-    public String getNome() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getNome'");
+
+    public void setPedidosVendidos(List<Pedido> pedidosVendidos) {
+        this.pedidosVendidos = pedidosVendidos;
     }
-    private 
+     
+    
 
+    public Date getDataAdmissao() {
+        return dataAdmissao;
+    }
 
+    public void setDataAdmissao(Date dataAdmissao) {
+        this.dataAdmissao = dataAdmissao;
+    }
 
+    public double getSalario() {
+        return salario;
+    }
+
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
+    
+    
 }

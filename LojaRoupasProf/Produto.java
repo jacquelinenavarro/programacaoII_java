@@ -1,14 +1,32 @@
+
 public class Produto {
+    private String ean;
+    private String descricao;
+    private double preco;
 
-    public Produto(String string, double d) {
-        //TODO Auto-generated constructor stub
+    public String getEan() {
+        return ean;
     }
 
-    public int getPreco() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getPreco'");
+    public void setEan(String ean) {
+        this.ean = ean;
     }
-    private String  
 
+    public String getDescricao() {
+        return descricao;
+    }
 
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
+    public double getPreco() {
+        return preco;
+    }
+
+    public void setPreco(double preco) {
+        this.preco = preco;
+    }
+    
+    
 }

@@ -1,24 +1,26 @@
-public class Cliente extends Pessoa{
-    public Cliente(String string) {
-        //TODO Auto-generated constructor stub
+import java.util.List;
+
+
+public class Cliente extends Pessoa {
+     private double cashback;
+     private List<Pedido> pedidosRealizados;
+
+    public double getCashback() {
+        return cashback;
     }
 
-    private double cashback
-
-    public double aplicarDesconto(double valorVenda) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'aplicarDesconto'");
+    public void setCashback(double cashback) {
+        this.cashback = cashback;
     }
 
-    public String getNome() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getNome'");
+    public List<Pedido> getPedidosRealizados() {
+        return pedidosRealizados;
     }
 
-    public String getCashback() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getCashback'");
-    } 
-
-
+    public void setPedidosRealizados(List<Pedido> pedidosRealizados) {
+        this.pedidosRealizados = pedidosRealizados;
+    }
+     
+     
+     
 }

@@ -1,6 +1,5 @@
-// Classe abstrata para pessoas com nome
-
-public abstract class Pessoa {
+// Classe Pessoa
+public class Pessoa {
     private String nome;
 
     public Pessoa(String nome) {
@@ -10,4 +9,9 @@ public abstract class Pessoa {
     public String getNome() {
         return nome;
     }
+}
+
+// Interface Desconto
+public interface Desconto {
+    double aplicarDesconto(double valor);
 }

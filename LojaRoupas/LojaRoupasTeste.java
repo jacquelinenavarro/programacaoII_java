@@ -1,5 +1,4 @@
 // Classe de teste
-
 public class LojaRoupasTeste {
     public static void main(String[] args) {
         Produto camiseta = new Produto("Camiseta", 50.0);

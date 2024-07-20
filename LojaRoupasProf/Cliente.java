@@ -1,21 +1,24 @@
-import java.util.Date;
-
-public class Funcionario extends Pessoas{
-    public Funcionario(String string) {
+public class Cliente extends Pessoa{
+    public Cliente(String string) {
         //TODO Auto-generated constructor stub
     }
-    private Date dataAdmissao;
-    private double salario;
+
+    private double cashback
+
     public double aplicarDesconto(double valorVenda) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'aplicarDesconto'");
     }
+
     public String getNome() {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'getNome'");
     }
-    private 
 
+    public String getCashback() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getCashback'");
+    } 
 
 
 }

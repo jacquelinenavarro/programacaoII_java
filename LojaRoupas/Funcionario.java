@@ -1,5 +1,3 @@
-// Classe Funcionario implementando a interface Desconto
-
 public class Funcionario extends Pessoa implements Desconto {
     private double desconto;
 
@@ -10,6 +8,6 @@ public class Funcionario extends Pessoa implements Desconto {
 
     @Override
     public double aplicarDesconto(double valor) {
-        return valor * (1 - this.desconto);  // Valor com desconto = (valor original) × (1 − desconto)
+        return valor * (1 - this.desconto);
     }
 }

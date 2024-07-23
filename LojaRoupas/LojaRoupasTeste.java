@@ -1,8 +1,6 @@
-// Classe de teste
 public class LojaRoupasTeste {
-   
     public static void main(String[] args) {
-        Produto camiseta = new Produto('camisa', 50.0);
+        Produto camiseta = new Produto("camisa", 50.0);
         Produto calca = new Produto("Calça", 80.0);
         Cliente cliente = new Cliente("Jacqueline Navarro");
         Funcionario funcionario = new Funcionario("João Silva");

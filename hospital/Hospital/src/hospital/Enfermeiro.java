@@ -4,12 +4,8 @@
  */
 package hospital;
 
-import java.util.Date;
 
-/**
- *
- * @author angela maria barbosa
- */
+
 public class Enfermeiro extends FuncionarioHospital {
     private String cre;
     

@@ -4,10 +4,7 @@
  */
 package hospital;
 
-/**
- *
- * @author angela maria barbosa
- */
+
 public class Endereco {
     private String logradouro;
     

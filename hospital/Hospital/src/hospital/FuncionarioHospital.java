@@ -6,10 +6,7 @@ package hospital;
 
 import java.util.Date;
 
-/**
- *
- * @author angela maria barbosa
- */
+
 public abstract class FuncionarioHospital extends Pessoa{
     
     private Date dataAdmissao;

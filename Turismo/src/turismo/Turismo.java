@@ -59,7 +59,7 @@ public class Turismo {
         
         pacote.adicionarProduto(produto);
         
-        System.out.printf("Preco total=%.2f", pacote.calcularPrecoTotal());
+        System.out.printf("Preco total=%.2f\n", pacote.calcularPrecoTotal());
         
         
     }

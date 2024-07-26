@@ -6,6 +6,10 @@ public class Produto extends Pessoa implements Desconto {
         this.preco = preco;
     }
 
+    public Produto(double preco) {
+        this.preco = preco;
+    }
+
     @Override
     public double aplicarDesconto(double valor) {
         return valor * 0.9;

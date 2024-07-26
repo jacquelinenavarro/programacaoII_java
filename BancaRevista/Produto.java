@@ -1,4 +1,4 @@
-package programacaoII_java.BancaRevista;
+package BancaRevista;
 
 public class Produto {
     private int codigo;

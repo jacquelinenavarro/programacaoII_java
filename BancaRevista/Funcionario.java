@@ -1,4 +1,4 @@
-package programacaoII_java.BancaRevista;
+package BancaRevista;
 
 public class Funcionario {
     private int id;

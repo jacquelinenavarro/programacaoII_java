@@ -1,9 +1,9 @@
 public class LojaRoupasTeste {
     public static void main(String[] args) {
-        Produto camiseta = new Produto("camisa", 50.0);
-        Produto calca = new Produto("Calça", 80.0);
-        Cliente cliente = new Cliente("Jacqueline Navarro");
-        Funcionario funcionario = new Funcionario("João Silva");
+        Produto camiseta = new Produto("Cod01", "Camisa", 150.0);
+        Produto calca = new Produto("Cod02", "Calca", 80.0);
+        Cliente cliente = new Cliente();
+        Funcionario funcionario = new Funcionario();
 
         double valorVenda = camiseta.getPreco() + calca.getPreco();
         double valorComDescontoCliente = cliente.aplicarDesconto(valorVenda);
